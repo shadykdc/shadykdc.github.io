@@ -108,11 +108,18 @@ h1{
 }
 
 .slideshow {
-	width: 100%;
+    width: 100%;
     height:auto;
     margin: auto;
     text-align:left;
     position:relative;
+}
+
+#slide {
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
 }
 
 .button-next, .button-prev {
