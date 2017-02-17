@@ -115,13 +115,6 @@ h1{
     position:relative;
 }
 
-#slide {
-	-webkit-transition: opacity 1s ease-in-out;
-	-moz-transition: opacity 1s ease-in-out;
-	-o-transition: opacity 1s ease-in-out;
-	transition: opacity 1s ease-in-out;
-}
-
 .button-next, .button-prev {
 	height: 40px;
     width: 40px;
