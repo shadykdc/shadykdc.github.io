@@ -48,7 +48,8 @@ body {
 
 a.nav:hover{
 	color: #303030;
-	cursor: pointer;
+	
+	: pointer;
 }
 
 a {
@@ -108,7 +109,7 @@ h1{
 }
 
 .slideshow {
-	width: 100%;
+    width: 100%;
     height:auto;
     margin: auto;
     text-align:left;
@@ -129,7 +130,7 @@ h1{
 
 .button-next:hover, .button-prev:hover {
 	background-color: rgba(255, 255, 255, 0.4);
-	cursor: hand;
+	cursor: pointer;
 }
 
 .button-next {
