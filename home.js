@@ -3,9 +3,9 @@
 /**
  * Change the top image every 5 seconds
  */
-var images = ["sunrise_small.jpg",
-              "colorado_small.jpg",
-              "dock.jpg"];
+var images = ["images/sunrise_small.jpg",
+              "images/colorado_small.jpg",
+              "images/dock.jpg"];
 var captions = ["Mt. Whiteny, CA | June, 2015",
                 "Colorado | August, 2015",
                 "Roche Harbor, WA | May, 2015"];
@@ -58,3 +58,20 @@ prevButton.appendChild(prevTriangle);
 var nextTriangle = document.createElement("div");
 nextTriangle.className = "triangle-next";
 nextButton.appendChild(nextTriangle);
+
+/**
+ * Add embedded soundcloud feature
+ */
+
+var soundcloud = document.createElement("iframe");
+soundcloud.allowTransparency="true";
+soundcloud.scrolling="no";
+soundcloud.frameborder="no";
+soundcloud.src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/250699884&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false";
+soundcloud.width="100%";
+soundcloud.height="400px";
+
+//document.getElementById("about").appendChild(soundcloud);
+
+//document.getElementsByClassName("tidbit")[3].innerHTML += "<br></br>";
+//document.getElementsByClassName("tidbit")[3].appendChild(soundcloud);
